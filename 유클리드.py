@@ -6,7 +6,8 @@ def gcb(a,b):
 
 
 a,b=input().split()
-c,d=input().split()
+c,d=input().split();
+
 a=int(a)
 b=int(b)
 c=int(c)
