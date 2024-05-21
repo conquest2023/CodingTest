@@ -10,6 +10,7 @@ def sosu(num):
             if i%j==0:
                 break
         count+=1
+        count+=12
     return count
 while True:
     n=int(input())
