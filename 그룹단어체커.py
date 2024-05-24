@@ -7,7 +7,7 @@ for i in range(n):
     cnt.append(m)
 for i in cnt:
     x=0
-    if len(i)==1 or len(i)==2 or len(set(i))==1:
+    if" "len(i)==1 or len(i)==2 or len(set(i))==1:
         count+=1
     elif i[x] not in i[x:] or i[x] not in i[x+1:]:
                 count+=1
