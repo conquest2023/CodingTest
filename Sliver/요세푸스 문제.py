@@ -13,4 +13,5 @@ while len(queue)!=0:
        else:
             front=queue.popleft()
             queue.append(front)
+
 print("<",', '.join(queue2),">", sep="")
