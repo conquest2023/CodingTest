@@ -5,6 +5,7 @@ for i in range(B):
     num1,num2=map(int,input().split())
     cnt[num1].append(num2)
     cnt[num2].append(num1)
+print(cnt)
 for i in range(A+1):
     cnt[i].sort()
 def dfs(v):
