@@ -5,14 +5,11 @@ dy=[0,0,-1,1]
 def BFS(x,y):
     queue=[(x,y)]
     visited[x][y]=0
-
     while queue:
         x,y=queue.pop(0)
-
         for i in range(4):
             nx=x+dx[i]
             ny=y+dy[i]
-
             if nx<0 or nx>=A or ny < 0 or ny >=B:
                 continue
             if visited[nx][ny]==1:
@@ -33,6 +30,7 @@ for i in range(n):
             if visited[a][b]==1:
                 BFS(a,b)
                 cnt+=1
+
     print(cnt)
 """import sys
 sys.setrecursionlimit(10000) # 재귀 깊이 설정
