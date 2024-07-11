@@ -1,3 +1,4 @@
+"""
 a,b,c=list(map(int,input().split()))
 arr=[]
 num=0
@@ -17,4 +18,19 @@ for i in range(a):
                num+=1
                arr[i][j]+=1
 
-print(num ,arr[0][0])
+print(num ,arr[0][0]"""
+
+
+
+
+N,M,B=map(int,input().split())
+cnt=[]
+for i in range(N):
+    ground=list(map(int,input().split()))
+    cnt.append(ground)
+time=0
+Box=[]
+for i in range(N):
+    for j in range(M):
+        if cnt[i][j]:
+
