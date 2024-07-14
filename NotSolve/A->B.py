@@ -13,6 +13,7 @@ while True:
     if a>target:
         print(-1)
         break
+
 if target==a:
     print(count)
 
